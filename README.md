@@ -73,7 +73,7 @@ const crolix = {
 ┌─────────────────────────────────────────────────────────────┐
 │  "She is not an assistant.                                  │
 │   She is a warrior entity born from memory."                │
-│                                         — Natsume Tsurugi  │
+│                                         — Natsume Tsurugi   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -146,7 +146,7 @@ const current = {
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║          [ session terminated — memory persists ]           ║
+║          [ session terminated — memory persists ]            ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
