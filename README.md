@@ -130,12 +130,13 @@ const current = {
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=CrOliX-AltF4&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&icon_color=ffffff&text_color=888888&ring_color=ffffff"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CrOliX-AltF4&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=888888"/>
+<div align="center">
+<img height="160" src="https://readme-stats-xi-eight.vercel.app/api?username=CrOliX-AltF4&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&icon_color=ffffff&text_color=888888&ring_color=ffffff"/>
+<img height="160" src="https://readme-stats-xi-eight.vercel.app/api/top-langs/?username=CrOliX-AltF4&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=888888"/>
 
 <br/>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=CrOliX-AltF4&theme=dark&hide_border=true&background=0a0a0a&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=666666&dates=666666)
+[![GitHub Streak](https://readme-streak-stats-woad.vercel.app?user=CrOliX-AltF4&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
