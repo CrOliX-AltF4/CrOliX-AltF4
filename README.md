@@ -2,7 +2,6 @@
 
 <img width="1410" height="324" alt="image" src="https://github.com/user-attachments/assets/73da84b6-8f0c-44b2-99b8-6cbb5ec4b2ad" />
 
-
 <br/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=3500&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=640&height=60&lines=%3E+Glory+to+Mankind.+%5BInitializing+dev+environment...%5D;%3E+Natsume+online.+Waiting+for+Master%27s+input...;%3E+ERROR%3A+no+stopping+condition+found.+continuing+build...;%3E+Praise+the+sun%2C+ship+the+code.)](https://git.io/typing-svg)
@@ -113,6 +112,13 @@ Twitch / YouTube  ░░░░░░░░░░░░░░░░░░░░�
 
 ---
 
+## ◈ portfolio
+
+[![Portfolio](https://img.shields.io/badge/YoRHa--N°5--Type--L-yorha--n5--type--l.netlify.app-ffffff?style=for-the-badge&logo=netlify&logoColor=black)](https://yorha-n5-type-l.netlify.app/)
+[![Repo](https://img.shields.io/badge/Source-YoRHa--n5--type--L-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CrOliX-AltF4/YoRHa-n5-type-L)
+
+---
+
 ## ◈ now building
 
 ```typescript
@@ -130,7 +136,6 @@ const current = {
 
 <div align="center">
 
-<div align="center">
 <img height="160" src="https://readme-stats-xi-eight.vercel.app/api?username=CrOliX-AltF4&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&icon_color=ffffff&text_color=888888&ring_color=ffffff"/>
 <img height="160" src="https://readme-stats-xi-eight.vercel.app/api/top-langs/?username=CrOliX-AltF4&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=888888"/>
 
