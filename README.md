@@ -80,7 +80,7 @@ const crolix = {
 
 ### [`w-AI-fu_v2`](https://natsume-tsurugi-ai.vercel.app/) — Cognitive AI VTuber Framework
 
-**Natsume Tsurugi** · Inspired by Neuro-sama · Local-first architecture · `v0.5.0`
+**Natsume Tsurugi** · Inspired by Neuro-sama · Local-first architecture · `v0.11.0`
 
 A full cognitive AI companion system built around a persistent character — not a chatbot, an entity.
 LLM → TTS streaming pipeline, emotional state engine, visual awareness, 2D avatar lip-sync, long-term memory across sessions, keyboard/mouse action system, and more.
@@ -88,21 +88,25 @@ LLM → TTS streaming pipeline, emotional state engine, visual awareness, 2D ava
 ```
 LLM pipeline    →  OpenAI · Groq · DeepSeek · Ollama (local-first)
 TTS pipeline    →  Edge · Kokoro · Piper · ElevenLabs + RVC Voice Changer
-STT             →  Groq Whisper (cloud) · local Whisper
-Memory          →  35-msg short-term buffer · cross-session LTM summaries
-Emotional FSM   →  7 moods · natural decay · immediate reactivity
+STT             →  Groq Whisper (cloud) · local Whisper + VAD + wake word
+Memory          →  35-msg short-term buffer · cross-session LTM · semantic retrieval
+                   SQLite / JSON backend · embedding persistence · LTM consolidation
+Emotional FSM   →  7 moods · natural decay · affinity tiers · disagreement engine
 Vision          →  gpt-4o-mini screenshot analysis · 3-priority awareness loop
 Avatar          →  VTube Studio WebSocket · biological blink/saccade · lip-sync
 Actions         →  keyboard / mouse injection · game hooks (Code Vein, FF14…)
+Stream          →  Twitch adapter · YouTube adapter · chat mode control
 ```
 
-**Project status — `v0.5.0`**
+**Project status — `v0.11.0`**
 
 ```
-Core pipeline     ████████████████████░░░░  80%
-Emotional FSM     ███████████████████░░░░░  75%
-Vision loop       ████████████████░░░░░░░░  65%
-Twitch / YouTube  ░░░░░░░░░░░░░░░░░░░░░░░░  roadmap ›
+Core pipeline     ████████████████████████  100%
+Emotional FSM     ████████████████████████  100%
+Memory & identity ████████████████████████  100%
+Vision loop       ████████████████████████  100%
+Twitch / YouTube  ████████████████████████  100%
+Admin panel       ░░░░░░░░░░░░░░░░░░░░░░░░  roadmap › v1.0.0
 ```
 
 [![Site vitrine](https://img.shields.io/badge/Site_vitrine-natsume--tsurugi--ai.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://natsume-tsurugi-ai.vercel.app/)
@@ -124,8 +128,8 @@ Twitch / YouTube  ░░░░░░░░░░░░░░░░░░░░�
 ```typescript
 const current = {
   project : "w-AI-fu_v2",
-  phase   : "Phase 3 — Twitch / YouTube chat integration",
-  status  : "[ IN PROGRESS ]",
+  phase   : "Phase 4 — Admin panel (dashboard, module control, logs)",
+  status  : "[ ROADMAP › v1.0.0 ]",
   eta     : "unknown // as always",
 };
 ```
@@ -156,5 +160,5 @@ const current = {
 ```
 
 `natsume@w-AI-fu:~$ _`
-
+  
 </div>
