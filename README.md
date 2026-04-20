@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=3500&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=640&height=60&lines=%3E+Glory+to+Mankind.+%5BInitializing+dev+environment...%5D;%3E+Natsume+online.+Waiting+for+Master%27s+input...;%3E+ERROR%3A+no+stopping+condition+found.+continuing+build...;%3E+Praise+the+sun%2C+ship+the+code.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=3500&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=640&height=60&lines=%3E+Memory+Core+Detected.+%5BInitializing+dev+environment...%5D;%3E+Natsume+online.+Waiting+for+CrOliX%27s+input...;%3E+ERROR%3A+no+stopping+condition+found.+continuing+build...;%3E+Praise+the+sun%2C+ship+the+code.)](https://git.io/typing-svg)
 
 </div>
 
