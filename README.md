@@ -109,7 +109,7 @@ Twitch / YouTube  ████████████████████�
 Admin panel       ░░░░░░░░░░░░░░░░░░░░░░░░  v0.11.0 › v1.0.0
 ```
 
-[![Site vitrine](https://img.shields.io/badge/Site_vitrine-natsume--tsurugi--ai.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://natsume-tsurugi-ai.vercel.app/)
+[![Site vitrine](https://img.shields.io/badge/Site_vitrine-lunarca--archive.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://lunarca-archive.vercel.app/)
 [![Proprietary](https://img.shields.io/badge/Source-All%20Rights%20Reserved-111111?style=for-the-badge&logoColor=white)]()
 
 > ⚠️ Source code visible à des fins de portfolio uniquement — reproduction interdite.
