@@ -14,11 +14,11 @@
 
 ```typescript
 const crolix = {
-  alias    : "CrOliX-AltF4",
+  alias : "CrOliX-AltF4",
   location : "your WI-FI",
-  focus    : ["Full-Stack Dev", "AI Integration", "Cognitive Systems"],
-  currently: "Building cognitive AI companion systems",
-  motto    : "Praise the sun, ship the code." // - "Astora the rushed"
+  focus : ["Full-Stack Dev", "AI Integration", "Cognitive Systems"],
+  currently : "Building cognitive AI companion systems",
+  motto : "Praise the sun, ship the code." // - "Astora the rushed"
 } satisfies Developer;
 ```
 
@@ -128,9 +128,9 @@ Admin panel       ░░░░░░░░░░░░░░░░░░░░�
 ```typescript
 const current = {
   project : "w-AI-fu_v2",
-  phase   : "Phase 4 — Admin panel (dashboard, module control, logs)",
-  status  : "[ v0.11.0 › v1.0.0 ]",
-  mode    : "YOLO" // as always,
+  phase : "Phase 4 — Admin panel (dashboard, module control, logs)",
+  status : "[ v0.11.0 › v1.0.0 ]",
+  mode : "YOLO" // as always,
 };
 ```
 
