@@ -106,7 +106,7 @@ Emotional FSM     ████████████████████�
 Memory & identity ████████████████████████  100%
 Vision loop       ████████████████████████  100%
 Twitch / YouTube  ████████████████████████  100%
-Admin panel       ░░░░░░░░░░░░░░░░░░░░░░░░  roadmap › v1.0.0
+Admin panel       ░░░░░░░░░░░░░░░░░░░░░░░░  v0.11.0 › v1.0.0
 ```
 
 [![Site vitrine](https://img.shields.io/badge/Site_vitrine-natsume--tsurugi--ai.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://natsume-tsurugi-ai.vercel.app/)
@@ -129,8 +129,8 @@ Admin panel       ░░░░░░░░░░░░░░░░░░░░�
 const current = {
   project : "w-AI-fu_v2",
   phase   : "Phase 4 — Admin panel (dashboard, module control, logs)",
-  status  : "[ ROADMAP › v1.0.0 ]",
-  eta     : "unknown // as always",
+  status  : "[ v0.11.0 › v1.0.0 ]",
+  mode     : "YOLO" // as always,
 };
 ```
 
