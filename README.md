@@ -14,11 +14,11 @@
 
 ```typescript
 const crolix = {
-  alias : "CrOliX-AltF4",
+  alias    : "CrOliX-AltF4",
   location : "your WI-FI",
-  focus : ["Full-Stack Dev", "AI Integration", "Cognitive Systems"],
-  currently : "Building cognitive AI companion systems",
-  motto : "Praise the sun, ship the code." // - "Astora the rushed"
+  focus    : ["Full-Stack Dev", "AI Integration", "Cognitive Systems"],
+  currently: "Building cognitive AI companion systems",
+  motto    : "Praise the sun, ship the code." // - "Astora the rushed"
 } satisfies Developer;
 ```
 
@@ -69,16 +69,19 @@ const crolix = {
 <div align="center">
 
 ```
-  ┌─────────────────────────────────────────────────────────────┐
-  │  "She is not an assistant.                                  │
-  │   She is a warrior entity born from memory."                │
-  │                                         — Natsume Tsurugi   │
-  └─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│  "She is not a simple assistant.                            │
+│   She is an entity born from memory."                       │
+│                                         — Natsume Tsurugi   │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
-### [`w-AI-fu_v2`](https://natsume-tsurugi-ai.vercel.app/) — Cognitive AI VTuber Framework
+> [!NOTE]
+> **Project N.T** is not a chatbot. Natsume Tsurugi is a persistent cognitive entity — she remembers, reacts emotionally, watches your screen, and acts in-game. The source code is proprietary; the showcase site is open under MIT.
+
+### [`Project N.T`](https://lunarca-archive.vercel.app/) — Cognitive AI VTuber Framework
 
 **Natsume Tsurugi** · Inspired by Neuro-sama · Local-first architecture · `v0.11.0`
 
@@ -110,16 +113,10 @@ Admin panel       ░░░░░░░░░░░░░░░░░░░░�
 ```
 
 [![Site vitrine](https://img.shields.io/badge/Site_vitrine-lunarca--archive.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://lunarca-archive.vercel.app/)
-[![Proprietary](https://img.shields.io/badge/Source-All%20Rights%20Reserved-111111?style=for-the-badge&logoColor=white)]()
+[![MIT License](https://img.shields.io/badge/Site-MIT_License-22c55e?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> ⚠️ Source code visible à des fins de portfolio uniquement — reproduction interdite.
-
----
-
-## ◈ portfolio
-
-[![Portfolio](https://img.shields.io/badge/YoRHa--N°5--Type--L-yorha--n5--type--l.netlify.app-ffffff?style=for-the-badge&logo=netlify&logoColor=black)](https://yorha-n5-type-l.netlify.app/)
-[![Repo](https://img.shields.io/badge/Source-YoRHa--n5--type--L-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CrOliX-AltF4/YoRHa-n5-type-L)
+> [!WARNING]
+> The **source code** is private. The showcase site documents architecture, features and design decisions — not the codebase itself. © CrOliX-AltF4 — All Rights Reserved.
 
 ---
 
@@ -128,11 +125,14 @@ Admin panel       ░░░░░░░░░░░░░░░░░░░░�
 ```typescript
 const current = {
   project : "w-AI-fu_v2",
-  phase : "Phase 4 — Admin panel (dashboard, module control, logs)",
-  status : "[ v0.11.0 › v1.0.0 ]",
-  mode : "YOLO" // as always,
+  phase   : "Phase 4 — Admin panel (dashboard, module control, logs)",
+  status  : "[ v0.11.0 › v1.0.0 ]",
+  mode    : "YOLO" // as always
 };
 ```
+
+> [!TIP]
+> Follow the project live at [lunarca-archive.vercel.app](https://lunarca-archive.vercel.app/) — chronicles, lore, and system updates posted there.
 
 ---
 
@@ -154,11 +154,11 @@ const current = {
 <div align="center">
 
 ```
-  ╔══════════════════════════════════════════════════════════════╗
-  ║          [ session terminated — memory persists ]            ║
-  ╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║          [ session terminated — memory persists ]            ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 `natsume@w-AI-fu:~$ _`
-  
+
 </div>
