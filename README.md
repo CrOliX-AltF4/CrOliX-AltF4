@@ -124,7 +124,7 @@ Admin panel       ░░░░░░░░░░░░░░░░░░░░�
 
 ```typescript
 const current = {
-  project : "w-AI-fu_v2",
+  project : "natsume-tsurugi",
   phase   : "Phase 4 — Admin panel (dashboard, module control, logs)",
   status  : "[ v0.11.0 › v1.0.0 ]",
   mode    : "YOLO" // as always
