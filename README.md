@@ -78,18 +78,18 @@ const crolix = {
 
 </div>
 
-> [!NOTE]
-> **Project N.T** is not a chatbot. Natsume Tsurugi is a persistent cognitive entity — she remembers, reacts emotionally, watches your screen, and acts in-game. The source code is proprietary; the showcase site is open under MIT.
+> [!WARNING]
+> **Project N.T** is proprietary software. The source code is not open-source, and all visual assets (including AI-assisted work generated via Leonardo.ai and curated by me) are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
 
 ### [`Project N.T`](https://lunarca-archive.vercel.app/) — Cognitive AI VTuber Framework
 
-**Natsume Tsurugi** · Inspired by Neuro-sama · Local-first architecture · `v0.11.0`
+**Natsume Tsurugi** · Inspired by Neuro-sama · Modular architecture · `v0.13.0`
 
 A full cognitive AI companion system built around a persistent character — not a chatbot, an entity.
-LLM → TTS streaming pipeline, emotional state engine, visual awareness, 2D avatar lip-sync, long-term memory across sessions, keyboard/mouse action system, and more.
+LLM → TTS streaming pipeline (Hybrid: Cloud-first, local fallback), emotional state engine, visual awareness, 2D avatar lip-sync, long-term memory across sessions, keyboard/mouse action system, and more.
 
 ```
-LLM pipeline    →  OpenAI · Groq · DeepSeek · Ollama (local-first)
+LLM pipeline    →  OpenAI · Groq · DeepSeek · Ollama (Hybrid: Cloud-first, local fallback)
 TTS pipeline    →  Edge · Kokoro · Piper · ElevenLabs + RVC Voice Changer
 STT             →  Groq Whisper (cloud) · local Whisper + VAD + wake word
 Memory          →  35-msg short-term buffer · cross-session LTM · semantic retrieval
@@ -101,7 +101,7 @@ Actions         →  keyboard / mouse injection · game hooks (Code Vein, FF14�
 Stream          →  Twitch adapter · YouTube adapter · chat mode control
 ```
 
-**Project status — `v0.11.0`**
+**Project status — `v0.13.0`**
 
 ```
 Core pipeline     ████████████████████████  100%
@@ -109,11 +109,11 @@ Emotional FSM     ████████████████████�
 Memory & identity ████████████████████████  100%
 Vision loop       ████████████████████████  100%
 Twitch / YouTube  ████████████████████████  100%
-Admin panel       ░░░░░░░░░░░░░░░░░░░░░░░░  v0.11.0 › v1.0.0
+Admin panel       ██████████████░░░░░░░░░░  v0.13.0
 ```
 
 [![Site vitrine](https://img.shields.io/badge/Site_vitrine-lunarca--archive.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://lunarca-archive.vercel.app/)
-[![MIT License](https://img.shields.io/badge/Site-MIT_License-22c55e?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-All_Rights_Reserved-333333?style=for-the-badge)](.)
 
 > [!WARNING]
 > The **source code** is private. The showcase site documents architecture, features and design decisions — not the codebase itself. © CrOliX-AltF4 — All Rights Reserved.
