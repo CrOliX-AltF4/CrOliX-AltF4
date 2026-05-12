@@ -79,7 +79,7 @@ const crolix = {
 </div>
 
 > [!WARNING]
-> **Project N.T** is proprietary software. The source code is not open-source, and all visual assets (including AI-assisted work generated via Leonardo.ai and curated by me) are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
+> **Project N.T** is proprietary software. The source code is not open-source, and all visual assets (including AI-assisted work generated via Leonardo.ai and curated by me) use for showcase site are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
 
 ### [`Project N.T`](https://lunarca-archive.vercel.app/) — Cognitive AI VTuber Framework
 
@@ -112,11 +112,8 @@ Twitch / YouTube  ████████████████████�
 Admin panel       ██████████████░░░░░░░░░░  v0.13.0
 ```
 
-[![Site vitrine](https://img.shields.io/badge/Site_vitrine-lunarca--archive.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://lunarca-archive.vercel.app/)
+[![showcase site](https://img.shields.io/badge/Site_vitrine-lunarca--archive.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://lunarca-archive.vercel.app/)
 [![License](https://img.shields.io/badge/License-All_Rights_Reserved-333333?style=for-the-badge)](.)
-
-> [!WARNING]
-> The **source code** is private. The showcase site documents architecture, features and design decisions — not the codebase itself. © CrOliX-AltF4 — All Rights Reserved.
 
 ---
 
