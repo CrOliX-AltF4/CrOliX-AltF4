@@ -79,9 +79,9 @@ const crolix = {
 </div>
 
 > [!WARNING]
-> **Project N.T** is proprietary software. The source code is not open-source, and all visual assets (including AI-assisted work generated via Leonardo.ai and curated by me) use for showcase site are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
+> **LunAnima** is proprietary software. The source code is not open-source, and all visual assets (including AI-assisted work generated via Leonardo.ai and curated by me) use for showcase site are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
 
-### [`Project N.T`](https://lunarca-archive.vercel.app/) — Cognitive AI VTuber Framework
+### [`LunAnima`](https://crolix-website.vercel.app) — Cognitive AI VTuber Framework
 
 **Natsume Tsurugi** · Inspired by Neuro-sama · Modular architecture · `v0.13.0`
 
@@ -112,7 +112,6 @@ Twitch / YouTube  ████████████████████�
 Admin panel       ██████████████░░░░░░░░░░  v0.13.0
 ```
 
-[![showcase site](https://img.shields.io/badge/Site_vitrine-lunarca--archive.vercel.app-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://lunarca-archive.vercel.app/)
 [![License](https://img.shields.io/badge/License-All_Rights_Reserved-333333?style=for-the-badge)](.)
 
 ---
@@ -129,7 +128,7 @@ const current = {
 ```
 
 > [!TIP]
-> Follow the project live at [lunarca-archive.vercel.app](https://lunarca-archive.vercel.app/) — chronicles, lore, and system updates posted there.
+> Check my web site [here](https://crolix-website.vercel.app) — more informations about my ecosysteme 
 
 ---
 
