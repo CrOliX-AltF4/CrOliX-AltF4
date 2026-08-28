@@ -79,7 +79,7 @@ const crolix = {
 </div>
 
 > [!WARNING]
-> **LunAnima** is proprietary software. The source code is not open-source, and all visual assets (including AI-assisted work generated via Leonardo.ai and curated by me) use for showcase site are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
+> **LunAnima** is proprietary software. The source code is not open-source, and all visual assets (including temporary AI-assisted work generated and curated by me) use for showcase site are © CrOliX-AltF4 — All Rights Reserved. Do not redistribute or reuse without permission.
 
 ### [`LunAnima`](https://crolix-website.vercel.app) — Cognitive AI VTuber Framework
 
