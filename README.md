@@ -7,7 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=3500&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=640&height=60&lines=%3E+Memory+Core+Detected.+%5BInitializing+dev+environment...%5D;%3E+Natsume+online.+Waiting+for+CrOliX%27s+input...;%3E+ERROR%3A+no+stopping+condition+found.+continuing+build...;%3E+Praise+the+sun%2C+ship+the+code.)](https://git.io/typing-svg)
 
 [![Website](https://img.shields.io/badge/website-crolix--website-C8A415?style=flat-square)](https://crolix-website.vercel.app)
-[![Ecosystem](https://img.shields.io/badge/ecosystem-Lun'-555555?style=flat-square)](#-the-lun-ecosystem)
+[![Ecosystem](https://img.shields.io/badge/ecosystem-Lun'-555555?style=flat-square)](https://github.com/Lun-Ecosystem)
 
 </div>
 
@@ -30,7 +30,7 @@ entity, **Natsume Tsurugi**, a personal assistant with a character that runs 24/
 
 ---
 
-## ◈ the lun' ecosystem
+## ◈ lun'
 
 <div align="center">
 
@@ -44,76 +44,18 @@ entity, **Natsume Tsurugi**, a personal assistant with a character that runs 24/
 
 </div>
 
-```mermaid
-flowchart LR
-    subgraph natsume["Natsume · private"]
-        direction TB
-        CORE["◆ Natsume Core<br/>persona · memory · voice<br/><i>NAS, 24/7</i>"]
-        DESK["Desktop Agent<br/>mic · screen · avatar<br/><i>PC</i>"]
-        DESK <--> CORE
-    end
+The projects, how they fit together and their status now live in one place:
+**[Lun-Ecosystem](https://github.com/Lun-Ecosystem)**.
 
-    subgraph acedia["Acedia · standalone product"]
-        direction TB
-        AV["LunAvaritia<br/>Android client"]
-        AC["LunAcedia<br/>inbox · agent · actions"]
-        AV --> AC
-    end
-
-    SRC[("Gmail · Calendar · Tasks<br/>GitHub · RSS · Home Assistant")]
-
-    CORE -- "delegates" --> AC
-    AC <--> SRC
-
-    subgraph tools["Standalone tools"]
-        direction TB
-        IRA["LunIra<br/>intent → code"]
-        GULA["LunGula<br/>replays → ONNX"]
-    end
-```
-
-| Project | What it is | Stack | Status |
-|---|---|---|---|
-| **LunAnima** · _private_ | Natsume's Core: persona, memory, emotion and voice. Links the satellites together | TypeScript · Node · Vue | ![active](https://img.shields.io/badge/-active-4c7a4c?style=flat-square) |
-| [`LunAcedia`](https://github.com/CrOliX-AltF4/LunAcedia) | Information server: connectors, an inbox synced with its sources, an agent bound by autonomy tiers | TypeScript · Node · Docker | ![in dev](https://img.shields.io/badge/-in_development-555555?style=flat-square) |
-| [`LunAvaritia`](https://github.com/CrOliX-AltF4/LunAvaritia) | Android client for LunAcedia: feed, chat, push notifications | Flutter · Dart · FCM | ![in dev](https://img.shields.io/badge/-in_development-555555?style=flat-square) |
-| [`LunIra`](https://github.com/CrOliX-AltF4/LunIra) | Multi-agent dev pipeline CLI: PO → Planner → Dev → QA | TypeScript · CLI | ![npm](https://img.shields.io/npm/v/@crolix-altf4/lunira?style=flat-square&color=C8A415&label=npm) |
-| [`LunGula`](https://github.com/CrOliX-AltF4/LunGula) | Imitation learning: game replays in, ONNX policy out | Python · PyTorch · ONNX | ![paused](https://img.shields.io/badge/-on_pause-8a7a5a?style=flat-square) |
-
-**How it holds together**
-
-- **Standalone first.** Every satellite works on its own. Turn Natsume off and nothing else breaks.
-- **One LLM per project.** LunAcedia's agent handles mail and calendar. The Core routes the request, relays the answer and speaks it.
-- **Hub-and-spoke.** Once wired, satellites only talk to the Core, never to each other.
-- **Human in control.** Any AI can be switched off, paused or triggered by hand. Actions go through autonomy tiers (`auto` · `confirm` · `manual`).
-- **Private by default.** Nothing is exposed to the internet. The phone reaches home over a private network.
-
----
-
-## ◈ natsume, the core
+In short: **Lun'Anima** (_private_) is Natsume, the core: persona, memory, voice. The satellites each do one
+job on their own and get delegated by her: [`lun-acedia`](https://github.com/Lun-Ecosystem/lun-acedia)
+for mail, calendar and tasks, [`LunIra`](https://github.com/CrOliX-AltF4/LunIra) for intent → code,
+[`LunGula`](https://github.com/CrOliX-AltF4/LunGula) for replays → ONNX.
 
 > [!WARNING]
 > **LunAnima** is proprietary software. Its source code is not open source, and all visual assets¹ used on the showcase site are © CrOliX-AltF4, All Rights Reserved. Do not redistribute or reuse them without permission.
 >
 > ¹ : in accordance with the artist's terms of use
-
-A personal assistant with a character. More than a chatbot. She keeps track of my mail, calendar and
-tasks, remembers what matters, speaks up when it's worth it and keeps me company while I play or work.
-
-| Area | What she does |
-|---|---|
-| **Voice** | Groq Whisper STT, VAD, wake word, barge-in. TTS via Edge, Kokoro, Piper or ElevenLabs, plus an RVC voice changer |
-| **Memory** | Short-term buffer, long-term facts, opinions and world model. Single write gate, daily consolidation, contradiction checks |
-| **Personality** | 7 moods with natural decay, affinity tiers, controlled disagreement |
-| **Assistant** | Hands mail, calendar and tasks over to LunAcedia's agent. Morning and evening briefs |
-| **Presence** | Screen vision, game hooks (FF14, Minecraft, osu!), VTube Studio lip-sync |
-| **Control** | Admin panel: every module can be switched off, paused or run by hand |
-
-```
-  PC · Desktop Agent                     NAS · Core (24/7)
-  mic · STT · screen · avatar  ──ws──►   state · memory · LLM · panel  ──►  LunAcedia
-                               ◄──────   reply + voice
-```
 
 ---
 
