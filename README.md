@@ -26,7 +26,7 @@ const crolix = {
 ```
 
 Full-stack developer by training. On the side, I build **Lun'**: a set of standalone projects orbiting one
-entity, **Natsume Tsurugi**, a personal assistant with a character that runs 24/7 on my home server.
+entity, **Natsume Tsurugi**, a personal assistant with a character, built to run 24/7 on my home server.
 
 ---
 
@@ -47,10 +47,10 @@ entity, **Natsume Tsurugi**, a personal assistant with a character that runs 24/
 The projects, how they fit together and their status now live in one place:
 **[Lun-Ecosystem](https://github.com/Lun-Ecosystem)**.
 
-In short: **Lun'Anima** (_private_) is Natsume, the core: persona, memory, voice. The satellites each do one
-job on their own and get delegated by her: [`lun-acedia`](https://github.com/Lun-Ecosystem/lun-acedia)
-for mail, calendar and tasks, [`LunIra`](https://github.com/CrOliX-AltF4/LunIra) for intent → code,
-[`LunGula`](https://github.com/CrOliX-AltF4/LunGula) for replays → ONNX.
+In short: **Lun'Anima** (_private_) is Natsume, the core: identity, relationship, conversation. The satellites
+each do one job on their own and get delegated by her: [`lun-acedia`](https://github.com/Lun-Ecosystem/lun-acedia)
+for mail, calendar and tasks, [`lun-avaritia`](https://github.com/Lun-Ecosystem/lun-avaritia) for the knowledge
+wiki. **Lun'Luxuria**, not started yet, will be her body: voice, avatar, senses.
 
 > [!WARNING]
 > **LunAnima** is proprietary software. Its source code is not open source, and all visual assets¹ used on the showcase site are © CrOliX-AltF4, All Rights Reserved. Do not redistribute or reuse them without permission.
@@ -63,9 +63,9 @@ for mail, calendar and tasks, [`LunIra`](https://github.com/CrOliX-AltF4/LunIra)
 
 | | |
 |---|---|
-| **Focus** | The assistant first: memory, inbox, delegation, response latency |
-| **Next** | Live test on the NAS → scoped mobile keys → per-entity memory → mobile assistant |
-| **Paused** | Streaming and LunGula, which will return together |
+| **Focus** | Natsume as a persistent being: her identity, her sense of the day, a memory that keeps disagreements |
+| **Next** | Live test on the NAS → speaking with her, voice mirroring the cards → Lun'Luxuria, her body → her avatar |
+| **Set aside** | Streaming; LunIra and LunGula, archived, to be rethought and renamed |
 | **Mode** | YOLO, as always |
 
 > [!TIP]
